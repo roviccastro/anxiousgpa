@@ -23,7 +23,8 @@ body{
 
 /*  */
 
-.head{
+.head,
+.footer{
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -31,13 +32,16 @@ body{
 
   background-color: #222222; 
 }
-.head .logo{
+.head .logo,
+.footer .logo{
   display: flex;
 }
-.head .icon{
+.head .icon,
+.footer .icon{
   width: 100px;
 }
-.head p{
+.head p,
+.footer .logo p{
   display: flex;
   align-items: center;
   color: #E1E0D4;
@@ -45,15 +49,26 @@ body{
   font-size: x-large;
   font-weight: bolder;
 }
-.head .links{
+.head .links,
+.footer .links{
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.head a{
+.head a,
+.footer a{
   color: #E1E0D4;
   text-decoration: none;
 }
 
 /*  */
+.footer *{
+  color: #E1E0D4;
+}
 
+.footer .credits{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
