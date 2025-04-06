@@ -13,3 +13,12 @@
   color: #222222;
 }
 
+/*  */
+
+body{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 50px;
+}
+
+/*  */
