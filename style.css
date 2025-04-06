@@ -31,10 +31,20 @@ body{
 
   background-color: #222222; 
 }
+.head .logo{
+  display: flex;
+}
 .head .icon{
   width: 100px;
 }
-
+.head p{
+  display: flex;
+  align-items: center;
+  color: #E1E0D4;
+  
+  font-size: x-large;
+  font-weight: bolder;
+}
 .head .links{
   display: flex;
   align-items: center;
