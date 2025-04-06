@@ -143,3 +143,21 @@ body{
 }
 
 /*  */
+
+.calculator-container{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+.calculator-container .row{
+  display: flex;
+  gap: 10px;
+}
+.calculator-container .row input{
+  border: 2px solid #222222;
+  border-radius: 10px;
+
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+}
